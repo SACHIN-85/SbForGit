@@ -8,6 +8,7 @@ public class SbForGitApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SbForGitApplication.class, args);
+		
 	}
 
 }
