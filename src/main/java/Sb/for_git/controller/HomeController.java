@@ -15,4 +15,9 @@ public class HomeController {
 		return ResponseEntity.ok("WelCome to Git ");
 	}
 	
+	@GetMapping("/")
+	public ResponseEntity<String> Welcome()
+	{
+		return ResponseEntity.ok("Thanks");
+	}
 }
