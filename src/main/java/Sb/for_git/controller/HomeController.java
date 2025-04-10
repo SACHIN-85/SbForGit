@@ -20,4 +20,10 @@ public class HomeController {
 	{
 		return ResponseEntity.ok("Thanks");
 	}
+	
+	@GetMapping("/")
+	public ResponseEntity<String> Soh()
+	{
+		return ResponseEntity.ok("Thansj");
+	}
 }
